@@ -1,6 +1,6 @@
 {
   "name": "material-pickers-daterange",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "> TODO: description",
   "author": "Jorge Calleja - wootsbot <jorgelca1205@gmail.com>",
   "homepage": "https://github.com/wootsbot/react-material-pickers#readme",
@@ -30,13 +30,13 @@
     "url": "https://github.com/wootsbot/react-material-pickers/issues"
   },
   "dependencies": {
-    "material-pickers-calendar": "^1.0.0"
+    "material-pickers-calendar": "^1.0.1-alpha.0"
   },
   "peerDependencies": {
-    "react": "17.x",
     "make-event-props": "^1.2.0",
     "merge-class-names": "^1.4.0",
     "prop-types": "^15.7.2",
+    "react": "17.x",
     "react-date-picker": "^8.0.7",
     "react-fit": "^1.3.1"
   }
