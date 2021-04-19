@@ -20,14 +20,12 @@ const ButtonBase = styled.button`
   font-family: Roboto, Helvetica Neue, sans-serif;
 `;
 
-export const CalendarHeader = styled.div`
-  padding: 8px 8px 0 8px;
-`;
+export const CalendarHeader = styled.div``;
 
 export const CalendarControls = styled.div`
   display: flex;
   align-items: center;
-  margin: 5% calc(33% / 7 - 16px);
+  margin-bottom: 8px;
 `;
 
 export const PeriodButton = styled(ButtonBase)`
@@ -38,12 +36,18 @@ export const PeriodButton = styled(ButtonBase)`
 export const ButtonNavigateBefore = styled(ButtonBase)`
   padding: 0;
   min-width: 0;
-  width: 40px;
-  height: 40px;
   flex-shrink: 0;
   line-height: 40px;
 `;
 
 export const Spacer = styled.div`
   flex: 1 1 auto;
+`;
+
+export const ActionsContainer = styled.div`
+  display: flex;
+  align-items: center;
+  & > :not(:first-child) {
+    margin-left: 16px;
+  }
 `;

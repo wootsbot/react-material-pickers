@@ -34,6 +34,8 @@
     "url": "https://github.com/wootsbot/react-material-pickers/issues"
   },
   "peerDependencies": {
+    "@emotion/react": "^11.x",
+    "@emotion/styled": "^11.x",
     "@wojtekmaj/date-utils": "^1.0.3",
     "get-user-locale": "^1.4.0",
     "merge-class-names": "^1.4.0",

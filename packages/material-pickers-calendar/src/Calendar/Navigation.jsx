@@ -24,6 +24,7 @@ import {
   PeriodButton,
   CalendarHeader,
   CalendarControls,
+  ActionsContainer,
 } from "./styled-components.js";
 import IconNavigateBefore from "./IconNavigateBefore";
 import IconNavigateNext from "./IconNavigateNext";
@@ -156,27 +157,29 @@ export default function Navigation({
 
         <Spacer />
 
-        {prevLabel !== null && (
-          <ButtonNavigateBefore
-            aria-label={prevAriaLabel}
-            disabled={prevButtonDisabled}
-            onClick={onClickPrevious}
-            type="button"
-          >
-            <IconNavigateBefore color="rgba(0,0,0,.54)" />
-          </ButtonNavigateBefore>
-        )}
+        <ActionsContainer>
+          {prevLabel !== null && (
+            <ButtonNavigateBefore
+              aria-label={prevAriaLabel}
+              disabled={prevButtonDisabled}
+              onClick={onClickPrevious}
+              type="button"
+            >
+              <IconNavigateBefore color="rgba(0,0,0,.54)" />
+            </ButtonNavigateBefore>
+          )}
 
-        {nextLabel !== null && (
-          <ButtonNavigateBefore
-            aria-label={nextAriaLabel}
-            disabled={nextButtonDisabled}
-            onClick={onClickNext}
-            type="button"
-          >
-            <IconNavigateNext color="rgba(0,0,0,.54)" />
-          </ButtonNavigateBefore>
-        )}
+          {nextLabel !== null && (
+            <ButtonNavigateBefore
+              aria-label={nextAriaLabel}
+              disabled={nextButtonDisabled}
+              onClick={onClickNext}
+              type="button"
+            >
+              <IconNavigateNext color="rgba(0,0,0,.54)" />
+            </ButtonNavigateBefore>
+          )}
+        </ActionsContainer>
       </CalendarControls>
     </CalendarHeader>
   );
