@@ -1,6 +1,6 @@
 {
   "name": "material-pickers-calendar-example",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.1",
   "description": "A sample page for React-Calendar.",
   "private": true,
   "scripts": {
@@ -11,8 +11,8 @@
   "author": "Jorge Calleja - wootsbot <jorgelca1205@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "material-pickers-calendar": "^1.0.1-alpha.0",
-    "material-pickers-daterange": "^1.0.1-alpha.0",
+    "material-pickers-calendar": "^1.0.1",
+    "material-pickers-daterange": "^1.0.1",
     "next": "^10.0.6"
   },
   "peerDependencies": {
